@@ -8,46 +8,42 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="w-full">
-      {/* Highlight Banner */}
-      <div className="bg-primary-green text-deep-navy py-3 px-4">
-        <div className="container mx-auto flex flex-col sm:flex-row items-center justify-center gap-3 text-center">
-          <span className="font-medium font-inter">
-            Applications open for our new cohort!
-          </span>
-          <Button
-            onClick={handleApplyClick}
-            variant="outline"
-            size="sm"
-            className="bg-deep-navy text-primary-green border-deep-navy hover:bg-deep-navy/90 hover:text-primary-green font-semibold px-4 py-1.5 rounded-md transition-all duration-200"
-          >
-            Apply Now
-          </Button>
-        </div>
-      </div>
-      
-      {/* Main Header */}
-      <nav className="bg-white shadow-sm py-4 px-4">
-        <div className="container mx-auto flex items-center justify-between">
-          {/* Logo placeholder - can be easily replaced */}
-          <div className="text-2xl font-bold text-deep-navy font-poppins">
-            {/* TODO: Replace with actual logo */}
-            The Finance Bootcamp
-          </div>
-          
-          <div className="hidden md:flex items-center space-x-6">
-            <a href="#offerings" className="text-deep-navy hover:text-primary-green transition-colors font-inter">
-              Our Offerings
-            </a>
-            <a href="#about" className="text-deep-navy hover:text-primary-green transition-colors font-inter">
-              About
-            </a>
+    <header className="relative z-50">
+      {/* Premium Application Banner */}
+      <div className="bg-gradient-to-r from-primary-green to-primary-green/90 backdrop-blur-sm border-b border-primary-green/20">
+        <div className="container mx-auto px-6 py-4">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-deep-navy font-semibold text-lg font-inter text-center sm:text-left">
+              Applications are open for our new cohort!
+            </p>
             <Button
               onClick={handleApplyClick}
-              className="bg-primary-green hover:bg-primary-green/90 text-deep-navy font-semibold px-6 py-2 rounded-lg transition-all duration-200"
+              className="bg-deep-navy hover:bg-deep-navy/90 text-primary-green font-semibold px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl border border-deep-navy/20"
             >
               Apply Now
             </Button>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Navigation */}
+      <nav className="bg-white/95 backdrop-blur-lg shadow-lg border-b border-gray-100">
+        <div className="container mx-auto px-6 py-6">
+          <div className="flex items-center justify-between">
+            {/* Logo placeholder - commented for future use */}
+            {/* <div className="text-2xl font-bold text-deep-navy font-poppins">
+              [LOGO WILL GO HERE]
+            </div> */}
+            <div className="text-3xl font-bold text-deep-navy font-poppins tracking-tight">
+              The Finance Bootcamp
+            </div>
+            
+            {/* Navigation items can be added here later */}
+            <div className="hidden md:flex items-center space-x-8">
+              <a href="#about" className="text-deep-navy hover:text-primary-green transition-colors duration-200 font-medium">About</a>
+              <a href="#offerings" className="text-deep-navy hover:text-primary-green transition-colors duration-200 font-medium">Offerings</a>
+              <a href="#contact" className="text-deep-navy hover:text-primary-green transition-colors duration-200 font-medium">Contact</a>
+            </div>
           </div>
         </div>
       </nav>

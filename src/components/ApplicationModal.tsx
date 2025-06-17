@@ -1,8 +1,7 @@
 
 import React from 'react';
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
-import { X } from 'lucide-react';
 
 interface ApplicationModalProps {
   isOpen: boolean;
@@ -17,28 +16,20 @@ const ApplicationModal: React.FC<ApplicationModalProps> = ({ isOpen, onClose }) 
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-md bg-white border border-gray-200 shadow-2xl">
-        <div className="absolute right-4 top-4">
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={onClose}
-            className="h-8 w-8 p-0 hover:bg-gray-100"
-          >
-            <X className="h-4 w-4" />
-          </Button>
-        </div>
-        
-        <DialogHeader className="text-center space-y-4 pt-6">
-          <DialogTitle className="text-2xl font-bold text-deep-navy font-poppins">
+      <DialogContent className="sm:max-w-lg bg-white border-0 shadow-2xl rounded-2xl overflow-hidden">
+        <DialogHeader className="text-center space-y-6 pt-8 pb-4 px-8">
+          <DialogTitle className="text-3xl font-bold text-deep-navy font-poppins leading-tight">
             Applications are open for our new cohort!
           </DialogTitle>
+          <DialogDescription className="sr-only">
+            Apply now for The Finance Bootcamp's new cohort
+          </DialogDescription>
         </DialogHeader>
         
-        <div className="flex justify-center pt-4 pb-6">
+        <div className="flex justify-center pb-8 px-8">
           <Button
             onClick={handleApplyClick}
-            className="bg-primary-green hover:bg-primary-green/90 text-deep-navy font-semibold px-8 py-3 rounded-lg transition-all duration-200 hover:scale-105"
+            className="bg-primary-green hover:bg-primary-green/90 text-deep-navy font-semibold px-12 py-4 rounded-xl text-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
           >
             Apply Now
           </Button>

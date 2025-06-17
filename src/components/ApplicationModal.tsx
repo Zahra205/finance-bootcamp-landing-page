@@ -31,11 +31,8 @@ const ApplicationModal: React.FC<ApplicationModalProps> = ({ isOpen, onClose }) 
         
         <DialogHeader className="text-center space-y-4 pt-6">
           <DialogTitle className="text-2xl font-bold text-deep-navy font-poppins">
-            Applications are now open!
+            Applications are open for our new cohort!
           </DialogTitle>
-          <p className="text-gray-600 font-inter">
-            Join our latest Intermediate + FIA cohort.
-          </p>
         </DialogHeader>
         
         <div className="flex justify-center pt-4 pb-6">

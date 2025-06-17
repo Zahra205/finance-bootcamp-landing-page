@@ -26,14 +26,14 @@ const OfferingsSection: React.FC = () => {
   ];
 
   return (
-    <section id="offerings" className="py-16 lg:py-24 bg-white">
+    <section id="offerings" className="py-20 lg:py-28 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-12 lg:mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-deep-navy mb-4 font-poppins">
+        <div className="text-center mb-16 lg:mb-20">
+          <h2 className="text-4xl lg:text-5xl font-bold text-deep-navy mb-6 font-poppins">
             Our Offerings
           </h2>
-          <p className="text-xl text-gray-600 font-inter max-w-2xl mx-auto">
+          <p className="text-2xl text-gray-600 font-inter max-w-3xl mx-auto">
             Comprehensive finance education designed for the modern world
           </p>
         </div>
@@ -59,7 +59,7 @@ const OfferingsSection: React.FC = () => {
                   
                   {/* Title with Badge */}
                   <div className="flex items-center gap-3 mb-4">
-                    <h3 className="text-xl font-semibold text-deep-navy font-poppins">
+                    <h3 className="text-2xl font-semibold text-deep-navy font-poppins">
                       {offering.title}
                     </h3>
                     {offering.badge && (
@@ -70,7 +70,7 @@ const OfferingsSection: React.FC = () => {
                   </div>
                   
                   {/* Description */}
-                  <p className="text-gray-600 font-inter leading-relaxed">
+                  <p className="text-gray-600 font-inter leading-relaxed text-lg">
                     {offering.description}
                   </p>
                 </div>

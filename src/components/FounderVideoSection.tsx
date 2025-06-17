@@ -4,9 +4,9 @@ import { Play } from 'lucide-react';
 
 const FounderVideoSection: React.FC = () => {
   return (
-    <section id="about" className="py-16 lg:py-24 bg-gradient-to-br from-gray-50 to-white">
+    <section id="about" className="py-20 lg:py-28 bg-gradient-to-br from-gray-50 to-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-16 lg:gap-20 items-center">
           {/* Video Container */}
           <div className="relative">
             <div className="aspect-video bg-gray-200 rounded-xl shadow-lg overflow-hidden relative group">
@@ -34,19 +34,13 @@ const FounderVideoSection: React.FC = () => {
           
           {/* Content */}
           <div className="lg:pl-8">
-            <h2 className="text-3xl lg:text-4xl font-bold text-deep-navy mb-6 font-poppins">
-              Meet Our Founder
+            <h2 className="text-4xl lg:text-5xl font-bold text-deep-navy mb-8 font-poppins">
+              About the Founder
             </h2>
             
-            {/* TODO: Add founder introduction paragraph here */}
-            <div className="prose prose-lg text-gray-600 font-inter">
-              <p className="text-lg leading-relaxed mb-6">
-                {/* Placeholder text - to be replaced with actual founder introduction */}
-                Discover the vision behind The Finance Bootcamp and learn how we're revolutionizing commerce education to make it practical, accessible, and career-focused.
-              </p>
-              
-              <p className="text-lg leading-relaxed">
-                Our approach combines traditional academic rigor with real-world application, ensuring students are prepared for the challenges of modern finance careers.
+            <div className="prose prose-xl text-gray-600 font-inter">
+              <p className="text-xl leading-relaxed">
+                Zahra Arif is a finance enthusiast and ACCA trainer who started teaching at the age of 15. With over 5 years of experience working with students from different backgrounds, she focuses on making finance easier to understand and more relevant to everyday life. Zahra's interest lies in addressing the gap in financial literacy, especially among students, and finding simple, practical ways to make a lasting impact. Through her work at The Finance Bootcamp, she hopes to help young people build confidence in their financial understanding and think more openly about their futures.
               </p>
             </div>
           </div>

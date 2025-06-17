@@ -11,16 +11,16 @@ const CTAFooterSection: React.FC = () => {
   return (
     <section className="bg-deep-navy">
       {/* CTA Section */}
-      <div className="py-16 lg:py-20">
+      <div className="py-20 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6 font-poppins">
+          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-8 font-poppins">
             Ready to join the next generation of finance learners?
           </h2>
           
           <Button
             onClick={handleApplyClick}
             size="lg"
-            className="bg-primary-green hover:bg-primary-green/90 text-deep-navy font-semibold px-12 py-4 rounded-xl transition-all duration-300 hover:scale-105 text-lg"
+            className="bg-primary-green hover:bg-primary-green/90 text-deep-navy font-semibold px-12 py-4 rounded-xl transition-all duration-300 hover:scale-105 text-xl"
           >
             Apply Now
           </Button>
@@ -36,7 +36,7 @@ const CTAFooterSection: React.FC = () => {
               <Mail className="w-5 h-5 text-primary-green" />
               <a 
                 href="mailto:zahra@thefinancebootcamp.com" 
-                className="hover:text-primary-green transition-colors font-inter"
+                className="hover:text-primary-green transition-colors font-inter text-lg"
               >
                 zahra@thefinancebootcamp.com
               </a>
@@ -44,7 +44,7 @@ const CTAFooterSection: React.FC = () => {
             
             <div className="flex items-start gap-3 text-white">
               <MapPin className="w-5 h-5 text-primary-green mt-0.5 flex-shrink-0" />
-              <span className="text-sm font-inter">
+              <span className="font-inter text-lg">
                 EdVenture Park, beside NMDC - Vijaya Nagar Colony Road, NMDC Colony, Venkatadri Colony, Masab Tank, Hyderabad, Telangana 500004
               </span>
             </div>
@@ -53,7 +53,7 @@ const CTAFooterSection: React.FC = () => {
               <Phone className="w-5 h-5 text-primary-green" />
               <a 
                 href="tel:7386327364" 
-                className="hover:text-primary-green transition-colors font-inter"
+                className="hover:text-primary-green transition-colors font-inter text-lg"
               >
                 7386327364
               </a>
@@ -62,7 +62,7 @@ const CTAFooterSection: React.FC = () => {
           
           {/* Copyright */}
           <div className="text-center pt-6 border-t border-gray-700">
-            <p className="text-gray-400 font-inter">
+            <p className="text-gray-400 font-inter text-lg">
               © 2025 The Finance Bootcamp. All Rights Reserved.
             </p>
           </div>

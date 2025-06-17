@@ -26,26 +26,26 @@ const HeroSection: React.FC = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <div className="animate-fade-in">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 font-poppins leading-tight">
-            The Finance Bootcamp
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 font-poppins leading-tight">
+            WHERE FINANCE FINALLY MAKES CENTS.
           </h1>
           
-          <p className="text-xl sm:text-2xl lg:text-3xl text-primary-green mb-4 font-inter font-medium">
+          <p className="text-2xl sm:text-3xl lg:text-4xl text-primary-green mb-6 font-inter font-medium">
             Commerce education that actually makes sense.
           </p>
           
-          <p className="text-lg sm:text-xl text-white/90 mb-8 font-inter max-w-2xl mx-auto">
+          <p className="text-xl sm:text-2xl text-white/90 mb-12 font-inter max-w-3xl mx-auto leading-relaxed">
             Learn Intermediate, Qualify FIA-ACCA, and Train for Tomorrow.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Button
               onClick={handleRequestInfo}
               variant="outline"
               size="lg"
-              className="bg-transparent border-2 border-primary-green text-primary-green hover:bg-primary-green hover:text-deep-navy font-semibold px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 w-full sm:w-auto"
+              className="bg-transparent border-2 border-primary-green text-primary-green hover:bg-primary-green hover:text-deep-navy font-semibold px-10 py-4 rounded-lg transition-all duration-300 hover:scale-105 w-full sm:w-auto text-lg"
             >
               Request Info
             </Button>
@@ -53,7 +53,7 @@ const HeroSection: React.FC = () => {
             <Button
               onClick={handleApplyClick}
               size="lg"
-              className="bg-primary-green hover:bg-primary-green/90 text-deep-navy font-semibold px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 w-full sm:w-auto"
+              className="bg-primary-green hover:bg-primary-green/90 text-deep-navy font-semibold px-10 py-4 rounded-lg transition-all duration-300 hover:scale-105 w-full sm:w-auto text-lg"
             >
               Apply Now
             </Button>

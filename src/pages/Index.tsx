@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import FounderVideoSection from '@/components/FounderVideoSection';
 import OfferingsSection from '@/components/OfferingsSection';
+import WhyTFBSection from '@/components/WhyTFBSection';
 import CTAFooterSection from '@/components/CTAFooterSection';
 import ApplicationModal from '@/components/ApplicationModal';
 
@@ -46,6 +47,7 @@ const Index = () => {
       <HeroSection />
       <FounderVideoSection />
       <OfferingsSection />
+      <WhyTFBSection />
       <CTAFooterSection />
       <ApplicationModal isOpen={isModalOpen} onClose={handleCloseModal} />
     </div>

@@ -6,18 +6,18 @@ const OfferingsSection: React.FC = () => {
   const offerings = [
     {
       icon: BookOpen,
-      title: "Intermediate Tutoring",
-      description: "Strong foundation across MEC/CEC."
+      title: "Intermediate Training Cohort",
+      description: "Clarity-driven tutoring for MEC/CEC students who want to actually understand commerce."
     },
     {
       icon: Users,
-      title: "Corporate Workshops",
-      description: "Real-world finance training for schools and teams."
+      title: "Corporate Bootcamps",
+      description: "Skill-building finance programs for teams — designed to level up decision-making, budgeting, and real-world money sense at work."
     },
     {
       icon: Award,
-      title: "FIA-ACCA Qualification (Coming Soon)",
-      description: "Fast-track to ACCA while you're still in college."
+      title: "Community Counselling",
+      description: "Support spaces for individuals and families to navigate tax systems, funding options, and better financial choices."
     }
   ];
 

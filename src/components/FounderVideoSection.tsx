@@ -24,13 +24,32 @@ const FounderVideoSection: React.FC = () => {
           
           {/* Content */}
           <div className="space-y-6">
-            <h2 className="text-3xl lg:text-4xl font-bold text-deep-navy mb-4 font-poppins">
-              About the Founder
-            </h2>
-            
-            <p className="text-lg text-deep-navy/80 leading-relaxed font-inter">
-              Zahra Arif is a finance enthusiast and ACCA trainer who started teaching at the age of 15. With over 5 years of experience working with students from different backgrounds, she focuses on making finance easier to understand and more relevant to everyday life. Zahra's interest lies in addressing the gap in financial literacy, especially among students, and finding simple, practical ways to make a lasting impact. Through her work at The Finance Bootcamp, she hopes to help young people build confidence in their financial understanding and think more openly about their futures.
-            </p>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 font-poppins leading-tight">
+  The gap between where you are and where you want to be? <br />
+  It starts closing right here.
+</h2>
+
+<p className="text-lg sm:text-xl text-white/90 mb-8 font-inter leading-relaxed max-w-3xl">
+  Apply in minutes. <br />
+  Start on the 1st of next month. <br />
+  Get support from day one. <br />
+  And become the person your future is waiting for.
+</p>
+
+<p className="text-lg sm:text-xl text-white/90 mb-8 font-inter leading-relaxed max-w-3xl space-y-4">
+  The world changed. Financial literacy didn’t. So we built something better. <br /><br />
+
+  Educated adults still struggle to manage their homes. <br />
+  Founders lose momentum because no one taught them how to track their money. <br />
+  And entire communities miss out on schemes, tax benefits, and funding — simply because they don’t know they exist. <br /><br />
+
+  Finance was never part of our education. <br />
+  We were never taught how to budget, save, file, or grow wealth — and now we’re all paying the price for it. <br /><br />
+
+  The Finance Bootcamp exists to fix that. <br />
+  We’re building a new kind of learning space — one that teaches finance in a way that actually makes sense. <br />
+  Clear. Practical. Powerful.
+</p>
           </div>
         </div>
       </div>

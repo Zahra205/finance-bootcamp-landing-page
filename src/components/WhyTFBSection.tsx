@@ -1,57 +1,58 @@
 
 import React from 'react';
-import { Users, Target, Trophy } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 const WhyTFBSection: React.FC = () => {
-  const benefits = [
-    {
-      icon: Users,
-      title: "Built for Students",
-      description: "Designed to help you learn, not just pass."
-    },
-    {
-      icon: Target,
-      title: "Interactive & Practical",
-      description: "Real examples. Real clarity."
-    },
-    {
-      icon: Trophy,
-      title: "Learn & Qualify Together",
-      description: "Dual benefit: Intermediate + ACCA."
-    }
-  ];
+  const handleApplyClick = () => {
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSd4OXrBK5iMv7Z4p7s3g_SKh4KC5QAha2qZBmtQ23VA-SaF1Q/viewform?usp=dialog', '_blank');
+  };
+
+  const handleAdmissionsClick = () => {
+    window.location.href = 'mailto:zahra@thefinancebootcamp.com?subject=Admissions Inquiry';
+  };
 
   return (
-    <section className="py-16 bg-gradient-to-br from-deep-navy via-deep-navy/95 to-deep-navy">
-      <div className="container mx-auto px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4 font-poppins">
-            Why The Finance Bootcamp?
-          </h2>
-          <div className="w-20 h-1 bg-primary-green mx-auto rounded-full"></div>
-        </div>
-        
-        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {benefits.map((benefit, index) => {
-            const IconComponent = benefit.icon;
-            return (
-              <div key={index} className="text-center group">
-                <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 hover:border-primary-green/30 transition-all duration-300 hover:bg-white/15">
-                  <div className="w-16 h-16 bg-gradient-to-br from-primary-green to-primary-green/80 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                    <IconComponent className="w-8 h-8 text-deep-navy" />
-                  </div>
-                  
-                  <h3 className="text-xl font-bold text-white mb-3 font-poppins">
-                    {benefit.title}
-                  </h3>
-                  
-                  <p className="text-white/80 leading-relaxed font-inter">
-                    {benefit.description}
-                  </p>
-                </div>
-              </div>
-            );
-          })}
+    <section className="py-16 bg-gradient-to-br from-deep-navy via-deep-navy/95 to-deep-navy relative overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+        style={{
+          backgroundImage: `url('/lovable-uploads/133d8abd-fa0b-467f-b4c3-4592f598a63f.png')`,
+        }}
+      >
+        <div className="absolute inset-0 bg-deep-navy/60"></div>
+      </div>
+      
+      <div className="container mx-auto px-6 lg:px-8 relative z-10">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-left mb-8">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 font-poppins leading-tight">
+              The gap between where you are and where you want to be? It starts closing right here.
+            </h2>
+            
+            <p className="text-lg sm:text-xl text-white/90 mb-8 font-inter leading-relaxed max-w-3xl">
+              Apply in minutes. Start on the 1st of next month. Get support from day one. And become the person your future is waiting for.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button
+                onClick={handleAdmissionsClick}
+                variant="outline"
+                size="lg"
+                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-deep-navy font-semibold px-8 py-3 rounded-xl transition-all duration-300 hover:scale-105 w-full sm:w-auto shadow-lg hover:shadow-xl backdrop-blur-sm"
+              >
+                Admissions
+              </Button>
+              
+              <Button
+                onClick={handleApplyClick}
+                size="lg"
+                className="bg-primary-green hover:bg-primary-green/90 text-deep-navy font-semibold px-8 py-3 rounded-xl transition-all duration-300 hover:scale-105 w-full sm:w-auto shadow-lg hover:shadow-xl"
+              >
+                Apply Now →
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     </section>

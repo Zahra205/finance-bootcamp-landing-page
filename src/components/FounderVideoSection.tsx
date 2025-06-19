@@ -24,19 +24,19 @@ const FounderVideoSection: React.FC = () => {
           
           {/* Content */}
           <div className="space-y-6">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 font-poppins leading-tight">
+            <h2 className="text-3xl lg:text-4xl font-bold text-deep-navy mb-4 font-poppins">
   The gap between where you are and where you want to be? <br />
   It starts closing right here.
 </h2>
 
-<p className="text-lg sm:text-xl text-white/90 mb-8 font-inter leading-relaxed max-w-3xl">
+<p className="text-lg text-deep-navy/80 leading-relaxed font-inter">
   Apply in minutes. <br />
   Start on the 1st of next month. <br />
   Get support from day one. <br />
   And become the person your future is waiting for.
 </p>
 
-<p className="text-lg sm:text-xl text-white/90 mb-8 font-inter leading-relaxed max-w-3xl space-y-4">
+<p className="text-lg text-deep-navy/80 leading-relaxed font-inter">
   The world changed. Financial literacy didn’t. So we built something better. <br /><br />
 
   Educated adults still struggle to manage their homes. <br />

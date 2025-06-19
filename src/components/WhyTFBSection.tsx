@@ -8,7 +8,7 @@ const WhyTFBSection: React.FC = () => {
   };
 
   const handleAdmissionsClick = () => {
-    window.location.href = 'mailto:zahra@thefinancebootcamp.com?subject=Admissions Inquiry';
+    window.location.href = 'Contact';
   };
 
   return (
@@ -61,7 +61,7 @@ const WhyTFBSection: React.FC = () => {
                 size="lg"
                 className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-deep-navy font-semibold px-8 py-3 rounded-xl transition-all duration-300 hover:scale-105 w-full sm:w-auto shadow-lg hover:shadow-xl backdrop-blur-sm"
               >
-                Admissions
+                Contact Us
               </Button>
               
               <Button

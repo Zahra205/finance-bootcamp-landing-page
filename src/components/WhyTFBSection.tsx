@@ -26,33 +26,13 @@ const WhyTFBSection: React.FC = () => {
       <div className="container mx-auto px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto">
           <div className="text-left mb-8">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 font-poppins leading-tight">
-  The gap between where you are and where you want to be? <br />
-  It starts closing right here.
-</h2>
-
-<p className="text-lg sm:text-xl text-white/90 mb-8 font-inter leading-relaxed max-w-3xl">
-  Apply in minutes. <br />
-  Start on the 1st of next month. <br />
-  Get support from day one. <br />
-  And become the person your future is waiting for.
-</p>
-
-<p className="text-lg sm:text-xl text-white/90 mb-8 font-inter leading-relaxed max-w-3xl space-y-4">
-  The world changed. Financial literacy didn’t. So we built something better. <br /><br />
-
-  Educated adults still struggle to manage their homes. <br />
-  Founders lose momentum because no one taught them how to track their money. <br />
-  And entire communities miss out on schemes, tax benefits, and funding — simply because they don’t know they exist. <br /><br />
-
-  Finance was never part of our education. <br />
-  We were never taught how to budget, save, file, or grow wealth — and now we’re all paying the price for it. <br /><br />
-
-  The Finance Bootcamp exists to fix that. <br />
-  We’re building a new kind of learning space — one that teaches finance in a way that actually makes sense. <br />
-  Clear. Practical. Powerful.
-</p>
-
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 font-poppins leading-tight">Add commentMore actions
+              The gap between where you are and where you want to be? It starts closing right here.
+            </h2>
+            
+            <p className="text-lg sm:text-xl text-white/90 mb-8 font-inter leading-relaxed max-w-3xl">
+              Apply in minutes. Start on the 1st of next month. Get support from day one. And become the person your future is waiting for.
+            </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button

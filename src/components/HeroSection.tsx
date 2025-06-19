@@ -8,7 +8,7 @@ const HeroSection: React.FC = () => {
   };
 
   const handleRequestInfo = () => {
-    window.location.href = 'mailto:zahra@thefinancebootcamp.com?subject=Request for Information';
+    window.location.href = '#contact';
   };
 
   return (
@@ -27,13 +27,13 @@ const HeroSection: React.FC = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 sm:px-8 lg:px-12 max-w-5xl mx-auto">
         <div className="animate-fade-in">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 font-poppins leading-tight tracking-tight">
-            WHERE FINANCE FINALLY MAKES 
-            <span className="text-primary-green block mt-2">CENTS.</span>
+          <h1 className="uppercase text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 font-poppins leading-tight tracking-tight">
+            Finance education never worked quite 
+            <span className="uppercase text-primary-green block mt-2">like this.</span>
           </h1>
           
           <p className="text-lg sm:text-xl lg:text-2xl text-white/90 mb-8 font-inter font-light max-w-3xl mx-auto leading-relaxed">
-            Commerce education that actually makes sense.
+            Because financial illiteracy isn’t just a gap  - it’s a trap.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -43,7 +43,7 @@ const HeroSection: React.FC = () => {
               size="lg"
               className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-deep-navy font-semibold px-8 py-3 rounded-xl transition-all duration-300 hover:scale-105 w-full sm:w-auto shadow-lg hover:shadow-xl backdrop-blur-sm"
             >
-              Request Info
+              Contact Us
             </Button>
             
             <Button

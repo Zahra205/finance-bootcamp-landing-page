@@ -25,23 +25,23 @@ const HeroSection: React.FC = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 text-center px-6 sm:px-8 lg:px-12 max-w-6xl mx-auto">
+      <div className="relative z-10 text-center px-6 sm:px-8 lg:px-12 max-w-5xl mx-auto">
         <div className="animate-fade-in">
-          <h1 className="text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold text-white mb-12 font-poppins leading-tight tracking-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 font-poppins leading-tight tracking-tight">
             WHERE FINANCE FINALLY MAKES 
             <span className="text-primary-green block mt-2">CENTS.</span>
           </h1>
           
-          <p className="text-2xl sm:text-3xl lg:text-4xl text-white/90 mb-16 font-inter font-light max-w-4xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl lg:text-2xl text-white/90 mb-8 font-inter font-light max-w-3xl mx-auto leading-relaxed">
             Commerce education that actually makes sense.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               onClick={handleRequestInfo}
               variant="outline"
               size="lg"
-              className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-deep-navy font-semibold px-12 py-5 rounded-xl transition-all duration-300 hover:scale-105 w-full sm:w-auto text-xl shadow-lg hover:shadow-xl backdrop-blur-sm"
+              className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-deep-navy font-semibold px-8 py-3 rounded-xl transition-all duration-300 hover:scale-105 w-full sm:w-auto shadow-lg hover:shadow-xl backdrop-blur-sm"
             >
               Request Info
             </Button>
@@ -49,7 +49,7 @@ const HeroSection: React.FC = () => {
             <Button
               onClick={handleApplyClick}
               size="lg"
-              className="bg-primary-green hover:bg-primary-green/90 text-deep-navy font-semibold px-12 py-5 rounded-xl transition-all duration-300 hover:scale-105 w-full sm:w-auto text-xl shadow-lg hover:shadow-xl"
+              className="bg-primary-green hover:bg-primary-green/90 text-deep-navy font-semibold px-8 py-3 rounded-xl transition-all duration-300 hover:scale-105 w-full sm:w-auto shadow-lg hover:shadow-xl"
             >
               Apply Now
             </Button>

@@ -10,21 +10,30 @@ import ApplicationModal from '@/components/ApplicationModal';
 
 const Index = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalTriggered, setModalTriggered] = useState(false);
 
   useEffect(() => {
+    if (modalTriggered) return; // Prevent multiple triggers
+
     // Show modal after 5 seconds
     const timer = setTimeout(() => {
-      setIsModalOpen(true);
+      if (!modalTriggered) {
+        setIsModalOpen(true);
+        setModalTriggered(true);
+      }
     }, 5000);
 
     // Show modal on scroll (halfway through page)
     const handleScroll = () => {
+      if (modalTriggered) return; // Prevent triggering if already shown
+      
       const scrollPosition = window.scrollY;
       const windowHeight = window.innerHeight;
       const documentHeight = document.documentElement.scrollHeight;
       
       if (scrollPosition > (documentHeight - windowHeight) / 2) {
         setIsModalOpen(true);
+        setModalTriggered(true);
         window.removeEventListener('scroll', handleScroll);
       }
     };
@@ -35,7 +44,7 @@ const Index = () => {
       clearTimeout(timer);
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [modalTriggered]);
 
   const handleCloseModal = () => {
     setIsModalOpen(false);

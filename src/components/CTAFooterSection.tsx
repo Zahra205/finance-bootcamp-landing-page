@@ -11,16 +11,16 @@ const CTAFooterSection: React.FC = () => {
   return (
     <section className="bg-deep-navy">
       {/* CTA Section */}
-      <div className="py-20 lg:py-24">
+      <div className="py-12 lg:py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl lg:text-5xl font-bold text-white mb-8 font-poppins">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-6 font-poppins">
             Ready to join the next generation of finance learners?
           </h2>
           
           <Button
             onClick={handleApplyClick}
             size="lg"
-            className="bg-primary-green hover:bg-primary-green/90 text-deep-navy font-semibold px-12 py-4 rounded-xl transition-all duration-300 hover:scale-105 text-xl"
+            className="bg-primary-green hover:bg-primary-green/90 text-deep-navy font-semibold px-8 py-3 rounded-xl transition-all duration-300 hover:scale-105 text-lg"
           >
             Apply Now
           </Button>
@@ -31,38 +31,41 @@ const CTAFooterSection: React.FC = () => {
       <footer className="border-t border-gray-700 py-8">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {/* Contact Information */}
-          <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <div className="flex items-center gap-3 text-white">
-              <Mail className="w-5 h-5 text-primary-green" />
+          <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+            {/* Email */}
+            <div className="flex items-center gap-3 text-white group">
+              <Mail className="w-5 h-5 text-primary-green flex-shrink-0" />
               <a 
                 href="mailto:zahra@thefinancebootcamp.com" 
-                className="hover:text-primary-green transition-colors font-inter text-lg"
+                className="hover:text-primary-green transition-colors font-inter text-base group-hover:underline"
               >
                 zahra@thefinancebootcamp.com
               </a>
             </div>
             
+            {/* Address */}
             <div className="flex items-start gap-3 text-white">
-              <MapPin className="w-5 h-5 text-primary-green mt-0.5 flex-shrink-0" />
-              <span className="font-inter text-lg">
-                EdVenture Park, beside NMDC - Vijaya Nagar Colony Road, NMDC Colony, Venkatadri Colony, Masab Tank, Hyderabad, Telangana 500004
+              <MapPin className="w-5 h-5 text-primary-green mt-1 flex-shrink-0" />
+              <span className="font-inter text-base leading-relaxed">
+                beside NMDC - Vijaya Nagar Colony Road, NMDC Colony, Venkatadri Colony, Masab Tank, Hyderabad, Telangana 500004
               </span>
             </div>
             
-            <div className="flex items-center gap-3 text-white">
-              <Phone className="w-5 h-5 text-primary-green" />
+            {/* Phone */}
+            <div className="flex items-center gap-3 text-white group">
+              <Phone className="w-5 h-5 text-primary-green flex-shrink-0" />
               <a 
                 href="tel:7386327364" 
-                className="hover:text-primary-green transition-colors font-inter text-lg"
+                className="hover:text-primary-green transition-colors font-inter text-base group-hover:underline"
               >
-                7386327364
+                +91 7386327364
               </a>
             </div>
           </div>
           
           {/* Copyright */}
           <div className="text-center pt-6 border-t border-gray-700">
-            <p className="text-gray-400 font-inter text-lg">
+            <p className="text-gray-400 font-inter text-base">
               © 2025 The Finance Bootcamp. All Rights Reserved.
             </p>
           </div>

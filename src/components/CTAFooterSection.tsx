@@ -28,7 +28,7 @@ const CTAFooterSection: React.FC = () => {
       </div>
 
       {/* Footer */}
-      <footer className="border-t border-gray-700 py-12">
+      <footer className="border-t border-gray-700 py-12" id='contact'>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           {/* Contact Information Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">

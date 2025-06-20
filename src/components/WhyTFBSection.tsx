@@ -8,7 +8,7 @@ const WhyTFBSection: React.FC = () => {
   };
 
   const handleAdmissionsClick = () => {
-    window.location.href = 'Contact';
+    window.location.href = 'tel:+917386327364';
   };
 
   return (
@@ -17,7 +17,7 @@ const WhyTFBSection: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
         style={{
-          backgroundImage: `url('/lovable-uploads/133d8abd-fa0b-467f-b4c3-4592f598a63f.png')`,
+          backgroundImage: `url('/pexels-frantisek-1294136-16503683.jpg')`,
         }}
       >
         <div className="absolute inset-0 bg-deep-navy/60"></div>
@@ -26,9 +26,9 @@ const WhyTFBSection: React.FC = () => {
       <div className="container mx-auto px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto">
           <div className="text-left mb-8">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 font-poppins leading-tight">Add commentMore actions
-              The gap between where you are and where you want to be? It starts closing right here.
-            </h2>
+            {/* <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 font-poppins leading-tight">
+              The gap between where you are and where you want to be?<br /> It starts closing right here.
+            </h2> */}
             
             <p className="text-lg sm:text-xl text-white/90 mb-8 font-inter leading-relaxed max-w-3xl">
               Apply in minutes. Start on the 1st of next month. Get support from day one. And become the person your future is waiting for.

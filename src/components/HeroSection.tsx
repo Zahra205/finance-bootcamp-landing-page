@@ -8,7 +8,7 @@ const HeroSection: React.FC = () => {
   };
 
   const handleRequestInfo = () => {
-    window.location.href = '#contact';
+    window.location.href = 'tel:+917386327364';
   };
 
   return (

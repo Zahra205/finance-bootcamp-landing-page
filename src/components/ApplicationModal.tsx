@@ -18,7 +18,7 @@ const ApplicationModal: React.FC<ApplicationModalProps> = ({ isOpen, onClose }) 
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-lg bg-white border-0 shadow-2xl rounded-2xl overflow-hidden">
         <DialogHeader className="text-center space-y-6 pt-8 pb-4 px-8">
-          <DialogTitle className="text-3xl font-bold text-deep-navy font-poppins leading-tight">
+          <DialogTitle className="text-3xl font-bold text-deep-navy font-poppins leading-tight text-center">
             Applications are open for our new cohort!
           </DialogTitle>
           <DialogDescription className="sr-only">

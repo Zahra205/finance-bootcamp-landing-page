@@ -11,6 +11,7 @@ const FounderVideoSection: React.FC = () => {
             <div className="w-[300px] md:w-[360px] lg:w-[400px] aspect-[9/16] bg-black rounded-2xl shadow-2xl border border-gray-200 overflow-hidden">
               <video
                 controls
+                autoPlay
                 className="w-full h-full object-cover rounded-2xl"
                 playsInline
                 poster="/thumbnail.jpg" // Optional

@@ -30,18 +30,18 @@ const FounderVideoSection: React.FC = () => {
             </h2>
 
             <p className="text-lg text-deep-navy/80 leading-relaxed font-inter">
-              Apply in minutes. <br />
-              Start on the 1st of next month. <br />
-              Get support from day one. <br />
+              <strong>Apply in minutes. </strong>></><br />
+              Start on the 1st of next month.
+              Get support from day one.
               And become the person your future is waiting for.
-              <br /><br />
+              
               The world changed. Financial literacy didn’t. So we built something better.
-              <br /><br />
+             
               Educated adults still struggle to manage their homes.
               Founders lose momentum because no one taught them how to track their money.
               And entire communities miss out on schemes, tax benefits, and funding — simply because they don’t know they exist.
-              <br /><br />
-              Finance was never part of our education. <br />
+             
+              Finance was never part of our education. 
               We were never taught how to budget, save, file, or grow wealth — and now we’re all paying the price for it.
               <br /><br />
               The Finance Bootcamp exists to fix that. <br />

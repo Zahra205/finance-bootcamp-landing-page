@@ -31,12 +31,7 @@ const FounderVideoSection: React.FC = () => {
 
             <p className="text-lg text-deep-navy/80 leading-relaxed font-inter">
               <strong>Apply in minutes. </strong>><br />
-              Start on the 1st of next month.
-              Get support from day one.
-              And become the person your future is waiting for.
-              
-              The world changed. Financial literacy didn’t. So we built something better.
-             <br /><br />
+          
               Educated adults still struggle to manage their homes.
               Founders lose momentum because no one taught them how to track their money.
               And entire communities miss out on schemes, tax benefits, and funding — simply because they don’t know they exist.

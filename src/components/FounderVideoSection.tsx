@@ -40,11 +40,11 @@ const FounderVideoSection: React.FC = () => {
               Educated adults still struggle to manage their homes.
               Founders lose momentum because no one taught them how to track their money.
               And entire communities miss out on schemes, tax benefits, and funding — simply because they don’t know they exist.
-             
+             <br /><br />
               Finance was never part of our education. 
               We were never taught how to budget, save, file, or grow wealth — and now we’re all paying the price for it.
-              <br /><br />
-              The Finance Bootcamp exists to fix that. <br />
+              
+              The Finance Bootcamp exists to fix that.
               We’re building a new kind of learning space — one that teaches finance in a way that actually makes sense.
               Clear. Practical. Powerful.
             </p>

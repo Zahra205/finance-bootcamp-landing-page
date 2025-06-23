@@ -36,7 +36,7 @@ const FounderVideoSection: React.FC = () => {
               And become the person your future is waiting for.
               
               The world changed. Financial literacy didn’t. So we built something better.
-             
+             <br /><br />
               Educated adults still struggle to manage their homes.
               Founders lose momentum because no one taught them how to track their money.
               And entire communities miss out on schemes, tax benefits, and funding — simply because they don’t know they exist.

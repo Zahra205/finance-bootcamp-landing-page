@@ -30,7 +30,7 @@ const FounderVideoSection: React.FC = () => {
             </h2>
 
             <p className="text-lg text-deep-navy/80 leading-relaxed font-inter">
-              <strong>Apply in minutes. </strong>></><br />
+              <strong>Apply in minutes. </strong>><br />
               Start on the 1st of next month.
               Get support from day one.
               And become the person your future is waiting for.

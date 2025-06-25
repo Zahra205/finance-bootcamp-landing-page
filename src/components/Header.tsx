@@ -10,31 +10,31 @@ const Header: React.FC = () => {
   return (
     <header className="relative z-50">
       {/* Main Navigation */}
-      <nav className="bg-deep-navy/95 backdrop-blur-lg shadow-lg border-gray-100">
-        <div className="container mx-auto px-6 py-4">
+      <nav className="bg-gradient-to-r from-purple-600 via-blue-600 to-teal-500 backdrop-blur-lg shadow-xl border-b-4 border-primary-green">
+        <div className="container mx-auto px-6 py-6">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <div className="flex items-center">
+            <div className="flex items-center transform hover:scale-105 transition-transform duration-300">
               <img 
                 src="/lovable-uploads/005af62b-0df7-4b53-836f-772c63bda3c6.png" 
                 alt="The Finance Bootcamp" 
-                className="h-12 w-auto"
+                className="h-20 w-auto drop-shadow-lg"
               />
             </div>
             
             {/* Navigation items */}
             <div className="flex items-center space-x-8">
-              <div className="hidden md:flex items-center space-x-6">
-                <a href="#about" className="text-white hover:text-primary-green transition-colors duration-200 font-medium text-sm">About</a>
-                <a href="#offerings" className="text-white hover:text-primary-green transition-colors duration-200 font-medium text-sm">Offerings</a>
-                <a href="tel:+917386327364" className="text-white hover:text-primary-green transition-colors duration-200 font-medium text-sm">Contact</a>
+              <div className="hidden md:flex items-center space-x-8">
+                <a href="#about" className="text-white hover:text-primary-green transition-all duration-300 font-bold text-lg hover:scale-110 transform drop-shadow-lg">About</a>
+                <a href="#offerings" className="text-white hover:text-primary-green transition-all duration-300 font-bold text-lg hover:scale-110 transform drop-shadow-lg">Offerings</a>
+                <a href="tel:+917386327364" className="text-white hover:text-primary-green transition-all duration-300 font-bold text-lg hover:scale-110 transform drop-shadow-lg">Contact</a>
               </div>
               
               <Button
                 onClick={handleApplyClick}
-                className="bg-primary-green hover:bg-primary-green/90 text-deep-navy font-semibold px-6 py-2 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl text-sm"
+                className="bg-gradient-to-r from-primary-green to-yellow-400 hover:from-yellow-400 hover:to-primary-green text-deep-navy font-bold px-8 py-3 rounded-full transition-all duration-300 hover:scale-110 shadow-2xl hover:shadow-3xl text-lg border-2 border-white transform hover:rotate-2"
               >
-                Apply Now
+                🚀 Apply Now
               </Button>
             </div>
           </div>

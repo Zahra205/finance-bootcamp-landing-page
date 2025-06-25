@@ -10,15 +10,16 @@ const Header: React.FC = () => {
   return (
     <header className="relative z-50">
       {/* Main Navigation */}
-      <nav className="bg-deep-navy/95 backdrop-blur-lg shadow-lg  border-gray-100">
+      <nav className="bg-deep-navy/95 backdrop-blur-lg shadow-lg border-gray-100">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            {/* Logo placeholder - commented for future use */}
-            {/* <div className="text-2xl font-bold text-deep-navy font-poppins">
-              [LOGO WILL GO HERE]
-            </div> */}
-            <div className="text-2xl font-bold text-primary-green font-poppins tracking-tight">
-              The Finance Bootcamp
+            {/* Logo */}
+            <div className="flex items-center">
+              <img 
+                src="/lovable-uploads/005af62b-0df7-4b53-836f-772c63bda3c6.png" 
+                alt="The Finance Bootcamp" 
+                className="h-12 w-auto"
+              />
             </div>
             
             {/* Navigation items */}

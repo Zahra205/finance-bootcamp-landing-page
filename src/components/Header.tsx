@@ -21,12 +21,12 @@ const Header: React.FC = () => {
         
         <div className="container mx-auto px-6 py-6 relative z-10">
           <div className="flex items-center justify-between">
-            {/* Logo */}
-            <div className="flex items-center transform hover:scale-110 transition-all duration-500 hover:rotate-2">
+            {/* Logo - removed hover animations */}
+            <div className="flex items-center">
               <img 
                 src="/lovable-uploads/005af62b-0df7-4b53-836f-772c63bda3c6.png" 
                 alt="The Finance Bootcamp" 
-                className="h-28 w-auto drop-shadow-2xl filter hover:brightness-110 transition-all duration-300"
+                className="h-32 w-auto drop-shadow-2xl"
               />
             </div>
             
